@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+.body-empresa{
+    margin: 0;
+}
+.section-empresa>h1{
+    display: inline-block;
+    margin-left: 2%;
+    font-size: 3.5rem;
+    font-weight:bolder ;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 5px solid orange;
+    
+}
+.texto-empresa{
+    font-size: 1.5rem;
+    height: auto;
+    margin: auto;
+    width: 90%;
+    line-height: 40px;  
+}
+.container-empresa{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.container-empresa div{
+    background-color: rgb(3, 10, 140);
+    border-radius: 30px;
+    width: 270px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px; 
+    text-align: center;  
+}
+
+.container-empresa div p{
+    display: inline-block;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.rolagem{
+    right: 10px;
+    position: fixed;
+    color: blue;
+    font-size: 3rem;
+    top: 25%;
+    text-decoration: none;  
+}
+.rolagem a:visited{
+    color: blue;
+}
+.rolagem a:hover{
+    color: rgb(0, 140, 255);
+}

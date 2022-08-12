@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.mySlides {display:none;}
+.carros {
+position: relative;
+}
+.carros a{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 18px;
+background-color: orange;
+border-radius: 100px;
+text-align: center;
+color: white;
+width: 180px;
+padding: 10px;
+text-decoration: none;
+}
+.display-left{
+position: absolute;
+top:50%;
+left: 5%;
+font-size:500%;
+color: white;
+border: none;
+background-color: transparent;
+}
+.display-right{
+position: absolute;
+top: 50%;
+right: 5%;
+font-size:500%;
+color: white;
+border: none;
+background-color: transparent;
+}   

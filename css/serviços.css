@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+.pagina-servicos>div{
+    display: flex;
+    justify-content: center;
+}
+.pagina-servicos h1{
+    font-size: 3.5rem;
+    font-weight: bolder;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 5px solid orange; 
+}
+.pagina-servicos>p{
+    width: 90%;
+    margin: auto;
+}
+.pagina-servicos>p{
+    text-align:justify;
+    font-size:1.5rem;
+    line-height: 40px;
+    margin-top:60px;
+}
+.servicos{
+    margin-top: 60px;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+.servicos div{
+    color: white;
+    border-radius: 50px 50px;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(3, 10, 140);
+}
+.servicos h2{
+    text-align: center;
+    font-size: 2rem;
+    
+    
+}
+.servicos p{
+    font-size: 1rem;
+    padding: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.servicos div img{
+    width: 400px;
+}

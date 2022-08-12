@@ -1,0 +1,137 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;600;700;800&display=swap');
+.body-contato{
+    font-family: 'Inter', sans-serif;
+    margin: auto;
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 100%; 
+}
+.pagina-contato{
+    display: flex;
+    margin-top: 60px; 
+}
+.pagina-contato-esquerda{
+    width: 50%;
+}
+.pagina-contato-esquerda h1{
+    display: inline-block;
+    font-size: 3.5rem;
+    border-bottom: 5px solid orange;
+    margin-left: 2%;
+}
+.pagina-contato-esquerda>p{
+    display: inline-block;
+    text-align: justify;
+    margin: 15px;
+    line-height: 23px;
+    font-weight: 550;
+}
+.pagina-contato-esquerda h2{
+    text-align: center;
+    margin: 15px;
+}
+.logos-contato{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.logos-contato div{
+    margin: 0px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding: 10px;
+}
+.logos-contato h2{
+    font-weight: 800;
+}
+.logos-contato h2,p{
+    margin: 10px;
+}
+.logos-contato p{
+    line-height: 23px;
+    font-weight: 400;
+}
+.logos-contato img{
+    width: 70px;
+}
+.logos-contato a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+}
+.logos-contato a:hover{
+    color: rgb(43, 43, 43);
+    text-decoration: underline;
+}
+
+.pagina-contato-direita{
+    width: 50%;
+    flex-direction: column;
+    background-color: orange;
+}
+.pagina-contato-direita h2{
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px 0px 40px;
+    align-items: center;
+    
+}
+.formulario input{
+   margin-top: 10px;
+   height: 40px;
+   width: 100%;
+}
+.formulario select{
+    margin-top: 10px;
+    height: 40px;
+    width: 101%;
+}
+.formulario textarea{
+    margin-top: 10px;
+    resize: none;
+    width: 100%;
+}
+.formulario a{
+    width: 40%;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: rgb(3, 10, 140);
+    border-radius: 100px;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 30px;
+    text-decoration: none;
+    text-align: center;
+
+}
+.formulario a:hover{
+    background-color: rgb(87, 87, 255);
+}
+@media  (max-width:1015px) { /*O max-width  define que a medida menor de 1015px vai ser aplicado o efeito*/
+    .pagina-contato{
+        
+        flex-direction: column;
+    
+        
+    }
+    .pagina-contato-esquerda{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .pagina-contato-direita{
+        width: 100%;
+    }
+}
